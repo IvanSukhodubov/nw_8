@@ -1,5 +1,25 @@
-h3{color: pink;}
-p+p{color: gray;}
-h3+p+p+div+div>p{color: red;}
-div+h3+p{color: green;}
-div+h3+p+p{color: yellow;}
+h3{
+    color: pink;
+}
+p+p{
+    color: gray;
+}
+h3+p+p+div+div>p{
+    color: red;
+}
+div+h3+p{
+    color: green;
+}
+div+h3+p+p{
+    color: yellow;
+}
+
+table{
+    color: orangered;
+}
+tr>th{
+    color: aqua;
+}
+tr>td:hover{
+    color:blue;
+}
