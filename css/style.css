@@ -1,8 +1,9 @@
-h3 :first-child{
+h3{
     color: pink;
 }
 p+p{
     color: gray;
+  
 }
 h3+p+p+div+div>p{
     color: red;
@@ -20,7 +21,15 @@ table{
 tr>th{
     color: aqua;
 }
-tr>td:hover
+tr>td:hover,
+tr>td:focus
 {
     color:blue;
 }
+h2:link,
+h2:checked
+th{
+    background-color: brown;
+}
+th:nth-child(even){background-color: black;}
+tr:nth-child(3N){background-color: darkorange;}
